@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "@jakejarvis/eslint-config"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": [
+    "dist/**",
+    "rollup.config.js"
+  ]
+}

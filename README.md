@@ -1,6 +1,10 @@
-# 🔗 Simple Anchor [![npm](https://img.shields.io/npm/v/simple-anchor?logo=npm)](https://www.npmjs.com/package/simple-anchor)
+# 🔗 Simple Anchor
 
-A JavaScript utility for adding deep anchor links ([like these](https://ux.stackexchange.com/q/36304/33248)) to existing page content.
+[![CI](https://github.com/jakejarvis/simple-anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/jakejarvis/simple-anchor/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/simple-anchor?logo=npm)](https://www.npmjs.com/package/simple-anchor)
+[![MIT License](https://img.shields.io/github/license/jakejarvis/simple-anchor?color=violet)](LICENSE)
+
+A JavaScript utility for adding deep anchor links ([like these](https://ux.stackexchange.com/q/36304/33248)) to existing page content. Zero dependencies and [only ~1kB gzipped!](https://bundlephobia.com/package/simple-anchor)
 
 ## Changes from [AnchorJS](https://github.com/bryanbraun/anchorjs)
 
@@ -14,7 +18,7 @@ Otherwise, the [AnchorJS docs](https://www.bryanbraun.com/anchorjs/) still serve
 ### Browser
 
 ```html
-<script src="https://unpkg.com/@jakejarvis/simple-anchor/dist/simple-anchor.min.js"></script>
+<script src="https://unpkg.com/simple-anchor/dist/simple-anchor.min.js"></script>
 <script>
   var anchor = new SimpleAnchor();
   anchors.add({

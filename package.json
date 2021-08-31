@@ -26,10 +26,9 @@
     "browser": "./dist/simple-anchor.min.js"
   },
   "scripts": {
-    "clean": "rimraf dist",
     "build": "rollup -c",
     "lint": "eslint .",
-    "prepublishOnly": "run-s clean build"
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {},
   "devDependencies": {
@@ -42,10 +41,9 @@
     "eslint": "^7.32.0",
     "eslint-plugin-compat": "^3.13.0",
     "eslint-plugin-import": "^2.24.2",
-    "npm-run-all": "^4.1.5",
-    "rimraf": "^3.0.2",
     "rollup": "^2.56.3",
     "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-filesize": "^9.1.1",
     "rollup-plugin-terser": "^7.0.2"
   },
